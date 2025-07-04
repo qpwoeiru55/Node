@@ -1,4 +1,4 @@
-async function getUser() { // 로딩 시 사용자 정보를 가져오는 함수
+async function getUser() { // 로딩 시 사용자 가져오는 함수
   try {
     const res = await axios.get('/users');
     const users = res.data;
